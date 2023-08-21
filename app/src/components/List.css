@@ -1,0 +1,14 @@
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul > li {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul > li > span {
+    font-weight: 600;
+}
