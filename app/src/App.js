@@ -12,9 +12,9 @@ function App() {
       <BrowserRouter>
         <Header logo={logo} />
         <Routes>
-          <Route path='/' element={<Profile userName="DanyDev83" />} />
-          <Route path='/projects' element={<Projects userName="DanyDev83" />} />
-          <Route path='/projects/:name' element={<ProjectDetail userName="DanyDev83" />} />
+          <Route path='/' element={<Profile userName="DanyDev56" />} />
+          <Route path='/projects' element={<Projects userName="DanyDev56" />} />
+          <Route path='/projects/:name' element={<ProjectDetail userName="DanyDev56" />} />
         </Routes>
       </BrowserRouter>
     </div>
